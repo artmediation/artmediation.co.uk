@@ -1,6 +1,6 @@
 title: artmediation.co.uk
 url: "https://www.artmediation.co.uk"
-baseurl: ""
-exclude: 
+baseurl: "/"
+exclude:
    - Gemfile
    - Gemfile.lock
