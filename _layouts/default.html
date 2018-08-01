@@ -64,11 +64,10 @@
 <!-- ======== @Region: body ======== -->
 
 <body class="page page-index-static navbar-layout-default">
-
 	<!-- @plugin: page loading indicator, delete to remove loader -->
 	<div class="page-loader" data-toggle="page-loader"></div>
 
-	<a href="#content" id="top" class="sr-only">Skip to content</a>
+	<a id="top" href="#content" class="sr-only">Skip to content</a>
 
 	<!-- ======== @Region: #header ======== -->
 	<div id="header">
@@ -126,25 +125,27 @@
 						<div class="header-slogan d-none d-lg-block">Bootstrap 4 Theme</div> -->
 					</div>
 					<!-- other header content -->
-					<!-- <div class="header-block order-12">
-						<a href="#search" class="btn btn-icon btn-link header-btn float-right order-11" data-toggle="search-form" data-target=".header-search"><i class="fa fa-search fa-flip-horizontal search-icon"></i></a>
+					<div class="header-block order-12">
+						<!-- <a href="#search" class="btn btn-icon btn-link header-btn float-right order-11" data-toggle="search-form" data-target=".header-search"><i class="fa fa-search fa-flip-horizontal search-icon"></i></a> -->
 
-						<a href="#top" class="btn btn-link btn-icon header-btn float-right d-lg-none" data-toggle="off-canvas" data-target=".navbar-main" data-settings='{"cloneTarget":true, "targetClassExtras": "navbar-offcanvas"}'> <i class="fa fa-bars"></i> </a>
-						<a href="#" title="Click me you'll get a surprise" class="btn btn-icon btn-link header-btn float-right order-last" data-toggle="off-canvas" data-target="#offcanvas-sidebar" data-settings='{"cloneTarget":false}'> <i class="ion-android-more-vertical"></i> </a>
-					</div> -->
+						<a href="#" class="btn btn-link btn-icon header-btn float-right d-lg-none" data-toggle="off-canvas" data-target=".navbar-main" data-settings='{"cloneTarget":true, "targetClassExtras": "navbar-offcanvas"}'> <i class="fa fa-bars"></i> </a>
+
+						<!-- <a href="#" title="Click me you'll get a surprise" class="btn btn-icon btn-link header-btn float-right order-last" data-toggle="off-canvas" data-target="#offcanvas-sidebar" data-settings='{"cloneTarget":false}'> <i class="ion-android-more-vertical"></i> </a> -->
+					</div>
 
 					<div class="navbar navbar-expand-md navbar-static-top">
 						<!--everything within this div is collapsed on mobile-->
 						<div class="navbar-main collapse">
 
-							<ul class="nav">
+							<ul class="nav navbar-nav navbar-nav-stretch float-lg-right dropdown-effect-fade">
+								<li class="nav-item"><a class="nav-link" href="/">Home</a></li>
 								<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
 								<li class="nav-item"><a class="nav-link" href="mediators/">Our Mediators</a></li>
 								<li class="nav-item"><a class="nav-link" href="mediation-agreement/">Mediation Agreement</a></li>
 								<li class="nav-item"><a class="nav-link" href="contact">Contact Us</a></li>
 							</ul>
 							<!--main navigation-->
-							<ul class="nav navbar-nav navbar-nav-stretch float-lg-right dropdown-effect-fade">
+							<!-- <ul class="nav navbar-nav navbar-nav-stretch float-lg-right dropdown-effect-fade"> -->
 								<!-- Homepages -->
 								<!-- <li class="nav-item dropdown dropdown-mega-menu active">
 									<a href="#" class="nav-link dropdown-toggle" id="indexs-drop" data-toggle="dropdown" data-hover="dropdown"> <i class="fa fa-home nav-link-icon"></i> <span class="d-none">Home</span> </a>
@@ -357,7 +358,7 @@
 										</div>
 									</div>
 								</li> -->
-							</ul>
+							<!-- </ul> -->
 						</div>
 					</div>
 				</div>
@@ -372,33 +373,34 @@
 		<div id="contact" class="container pt-6 pb-5">
 			<div class="row">
 				<div class="col-md-4">
-					<!--@todo: replace with company contact details-->
-					<h4 class="text-uppercase text-white">
-						Contact Us
-					</h4>
-					<address>
-							<ul class="list-unstyled">
-								<li>
-									<abbr title="Phone"><i class="fa fa-phone fa-fw"></i></abbr>
-									+44 20 7993 2580
-								</li>
-								<li>
-									<abbr title="Email"><i class="fa fa-envelope fa-fw"></i></abbr>
-									info@artmediation.co.uk
-								</li>
-								<!-- <li>
-									<abbr title="Address"><i class="fa fa-home fa-fw"></i></abbr>
-									Sunshine House, Sunville. SUN12 8LU.
-								</li> -->
-							</ul>
-						</address>
-				</div>
-
-				<div class="col-md-4 offset-md-4">
 					<h4 class="text-uppercase text-white">
 						About Us
 					</h4>
 					<p>We are a boutique mediation practice offering specialist resolution services for disputes</p>
+				</div>
+
+				<div class="col-md-4 offset-md-4">
+					<!--@todo: replace with company contact details-->
+					<h4 class="text-uppercase text-white">
+						Contact Us
+					</h4>
+
+					<address>
+						<ul class="list-unstyled">
+							<li>
+								<abbr title="Phone"><i class="fa fa-phone fa-fw"></i></abbr>
+								+44 20 7993 2580
+							</li>
+							<li>
+								<abbr title="Email"><i class="fa fa-envelope fa-fw"></i></abbr>
+								info@artmediation.co.uk
+							</li>
+							<!-- <li>
+								<abbr title="Address"><i class="fa fa-home fa-fw"></i></abbr>
+								Sunshine House, Sunville. SUN12 8LU.
+							</li> -->
+						</ul>
+					</address>
 				</div>
 
 				<!-- <div class="col-md-4">
