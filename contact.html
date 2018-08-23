@@ -15,12 +15,18 @@ permalink: /contact/
 		<div class="container">
 			<div class="row justify-content-md-center">
 				<div class="col-md-9">
-					<p>Please contact one of our Mediators using the details on the <a href="/mediators">Our Mediators</a> page or alternatively contact</p>
-
 					<div class="row">
 						<div class="col-md-6">
+							<p>Please contact one of our Mediators using the details on the <a href="/mediators">Our Mediators</a> page or alternatively use this contact form.</p>
 
-							<form id="contact-form" action="#" role="form">
+							<hr>
+
+							<p><abbr title="Phone"><i class="fa fa-phone"></i></abbr> +44 7967 326992</p>
+							<p><abbr title="Email"><i class="fa fa-envelope"></i></abbr> info@artmediation.co.uk</p>
+						</div>
+
+						<div class="col-md-6">
+							<form id="contact-form" action="{{ site.subsume }}artmediation/contact" method="POST" role="form">
 								<div class="form-group">
 									<label class="sr-only" for="contact-name">Name</label>
 									<input type="text" class="form-control" id="contact-name" placeholder="Name">
@@ -36,17 +42,10 @@ permalink: /contact/
 									<textarea rows="12" class="form-control" id="contact-message" placeholder="Message"></textarea>
 									<small id="contact-message-help" class="form-text text-muted">Your message and details.</small>
 								</div>
+
+								<p><div class="g-recaptcha" data-sitekey="{{ site.recaptchaSiteKey }}"></div></p>
 								<input type="button" class="btn btn-primary" value="Send Message">
 							</form>
-						</div>
-
-						<div class="col-md-6">
-							<p>
-								<abbr title="Phone"><i class="fa fa-phone"></i></abbr> +44 7967 326992
-							</p>
-							<p>
-								<abbr title="Email"><i class="fa fa-envelope"></i></abbr> info@artmediation.co.uk
-							</p>
 						</div>
 					</div>
 				</div>
