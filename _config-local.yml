@@ -2,3 +2,8 @@ url: "http://localhost:4000"
 baseurl: "/"
 
 incremental: true
+
+subsume: http://localhost:8500/
+
+recaptchaSiteKey: 6LezdWsUAAAAAEFTp3ucVeN3W1-7hN9pytk7PqLP
+recaptchaSecret: 6LezdWsUAAAAAElg2g9SXyXcvhOXJMAe4CkFippI

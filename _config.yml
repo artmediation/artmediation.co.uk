@@ -4,3 +4,8 @@ baseurl: "/"
 exclude:
    - Gemfile
    - Gemfile.lock
+
+subsume: https://api.subsume.io/
+
+recaptchaSiteKey: 6Ld1d2sUAAAAAGQwFd_fbUCZBdgOgewL9aOjdTZO
+recaptchaSecret: 6Ld1d2sUAAAAAJgoMQHrddWWirMNP6_d4xWlIlET
