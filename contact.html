@@ -29,22 +29,22 @@ permalink: /contact/
 							<form id="contact-form" action="{{ site.subsume }}artmediation/contact" method="POST" role="form">
 								<div class="form-group">
 									<label class="sr-only" for="contact-name">Name</label>
-									<input type="text" class="form-control" id="contact-name" placeholder="Name">
+									<input type="text" class="form-control" id="contact-name" placeholder="Name" required>
 									<small id="contact-name-help" class="form-text text-muted">First and last names.</small>
 								</div>
 								<div class="form-group">
 									<label class="sr-only" for="contact-email">Email</label>
-									<input type="email" class="form-control" id="contact-email" placeholder="Email">
+									<input type="email" class="form-control" id="contact-email" placeholder="Email" required>
 									<small id="contact-email-help" class="form-text text-muted">We'll never share your email with anyone else.</small>
 								</div>
 								<div class="form-group">
 									<label class="sr-only" for="contact-message">Message</label>
-									<textarea rows="12" class="form-control" id="contact-message" placeholder="Message"></textarea>
+									<textarea rows="12" class="form-control" id="contact-message" placeholder="Message" required></textarea>
 									<small id="contact-message-help" class="form-text text-muted">Your message and details.</small>
 								</div>
 
 								<p><div class="g-recaptcha" data-sitekey="{{ site.recaptchaSiteKey }}"></div></p>
-								<input type="button" class="btn btn-primary" value="Send Message">
+								<input type="submit" class="btn btn-primary" value="Send Message">
 							</form>
 						</div>
 					</div>
